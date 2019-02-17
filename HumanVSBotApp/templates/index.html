@@ -1,0 +1,192 @@
+{% extends "material/base.html" %}
+{% block content %}
+    <div class="showcase container lighten-3">
+        <div class="row">
+            <div class="col 12 m10 offset-ml center">
+                <h2>Human Vs Bot Predictor </h2>
+                <p></p>
+                <a href="{{ url_for('index') }}"
+                   class="btn btn-small black white-text waves-effect waves-dark">Reset</a>
+                <a href="{{ url_for('preview') }}" class="btn btn-small white black-text waves-effect waves-dark">View
+                    Dataset</a>
+                <a href="{{ url_for('eda') }}" class="btn btn-small white black-text waves-effect waves-dark">Visualization</a>
+            </div>
+
+        </div>
+    </div>
+    <section class="section section-signup">
+        <div class="container">
+            <div class="row">
+
+                <div class="col s12 m4">
+                    <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
+                        <form action="{{ url_for('analyze') }}" method="POST">
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="bid_countInput" name="bid_count" min="1" max="515033"
+                                           value="1" step="10000">
+                                    <label for="Bid Count">Bid Count</label>
+
+                            </div>
+
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="num_auctionInput" name="num_auction" min="1" max="1623"
+                                           value="1" step="1">
+                                    <label for="Auction Count">Auction Count</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="country_countInput" name="country_count" min="0" max="178"
+                                           value="1" step="1">
+                                    <label for="Country Count">Country Count</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="ip_countInput" name="ip_count" min="1" max="111918"
+                                           value="1" step="1000">
+                                    <label for="IP Count">IP Count</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="average_distinct_merc_per_auctionInput" name="average_distinct_merc_per_auction" min="1" max="81376"
+                                           value="1" step="1000">
+                                    <label for="Average Distinct Merchandise Per Auction">Average Distinct Merchandise Per Auction</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="average_distinct_country_per_auctionInput" name="average_distinct_country_per_auction" min="0" max="20"
+                                           value="0" step="1">
+                                    <label for="Average Distinct Country Per Auction">Average Distinct Country Per Auction</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="average_distinct_dev_per_auctionInput" name="average_distinct_dev_per_auction" min="1" max="82"
+                                           value="1" step="1">
+                                    <label for="Average Distinct Devise Per Auction">Average Distinct Devise Per Auction</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="average_bids_per_auctiontInput" name="average_bids_per_auction" min="1" max="1023"
+                                           value="1" step="10">
+                                    <label for="Average Bids Per Auction">Average Bids Per Auction</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="num_auction_wonInput" name="num_auction_won" min="0" max="487"
+                                           value="0" step="10">
+                                    <label for="Auction Won">Auction Won</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="percentage_winInput" name="percentage_win" min="0" max="1"
+                                           value="0" step="0.1">
+                                    <label for="Percentage Wins">Percentage Wins</label>
+
+                            </div>
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="avg_bids_auctionInput" name="avg_bids_auction" min="0.000002" max="0.514061"
+                                           value="0.0001" step="0.0001">
+                                    <label for="Average Bids per Auctions" >Average Bids per Auctions</label>
+
+                            </div>
+
+                            <div class="input-field">
+                                <p class="range-field">
+                                    <input type="range" id="competitorsInput" name="competitors" min="0.000002" max="0.514061"
+                                           value="0.0001" step="0.0001">
+                                    <label for="Competitors" >Competitors</label>
+
+                            </div>
+
+
+{#                            <div class="input-field">#}
+{#                                <select id="role" name="model_choice">#}
+{#                                    <option value="" disabled selected>Select Model</option>#}
+{#                                    <option value="logitmodel">Logistic Regression</option>#}
+{#                                    <option value="knnmodel">K-Nearest Neighbour</option>#}
+{#                                    <option value="svmmodel">SVM</option>#}
+{#                                </select>#}
+{#                                <label for="role">Select ML Algorithm</label>#}
+{#                            #}
+{#                            </div>#}
+                            <input type="submit" value="Predict"
+                                   class="btn btn-small black-text waves-effect waves-light btn-extend">
+                            <input type="reset" value="Clear"
+                                   class="btn btn-small black-text waves-effect waves-light btn-extend">
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col s12 m4 offers">
+                    <div class="card-panel black lighten-4 white-text text-light-7 z-depth-0">
+                        <p>Bid Count:  {{ bid_count }}</p>
+                        <p>Auction Count:  {{ auction_count }}</p>
+                        <p>Country Count:  {{ country_count }}</p>
+                        <p>IP Count:  {{ ip_count }} </p>
+                        <p>Average Distinct Merchandise Per Auction:  {{ average_distinct_merc_per_auction }}</p>
+                        <p>Average Distinct Country per Auction:  {{ average_distinct_country_per_auction }}</p>
+                        <p>Average Distinct Devise per Auction:  {{ average_distinct_dev_per_auction }}</p>
+                        <p>Average Bids per Auction:  {{ average_bids_per_auction }} </p>
+                        <p>Number of Auctions Won:  {{ num_auction_won }}</p>
+                        <p>Percentage Win:  {{ percentage_win }}</p>
+                        <p>Average Bids Auction:  {{ avg_bids_auction }}</p>
+                        <p>Competitors:  {{ competitors }}</p>
+                        Using {{ model_selected }} on {{ clean_data }}
+                    </div>
+                </div>
+
+
+                <div class="col s12 m4 offers">
+                    <h5>Prediction</h5>
+                    <div class="collection" role="alert">
+                        <p class="collection-item active black">Predicted result: {{ result_prediction }} </p>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+
+                        {% if result_prediction == 1 %}
+                            <img src="static/imgs/download.jpeg" width="200px" height="200px">
+
+                        {% elif result_prediction == 0 %}
+                            <img src="static/imgs/images.png" width="200px" height="200px">
+                        {% endif %}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <!-- <script type="text/javascript">
+         document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems, options);
+      });
+    </script> -->
+
+    <script>
+        // Or with jQuery
+
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+
+{% endblock %}

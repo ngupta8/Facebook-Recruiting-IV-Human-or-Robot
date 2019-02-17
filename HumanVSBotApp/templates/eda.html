@@ -1,0 +1,64 @@
+{% extends "material/base.html" %}
+{% block content %}
+<div class="showcase container lighten-3">
+    <div class="row">
+        <div class="col 12 m10 offset-ml center">
+            <h2>Data Exploration </h2>
+            <p></p>
+        </div>
+
+        <div class="col 25 m12 offset-ml center">
+            <style>
+
+            #feature_menu{
+                overflow: visible;
+                display: -webkit-box;
+                -webkit-appearance: menulist;
+                width: 30%;
+            }
+            </style>
+            <form action="/bokeh" id="select_feature">
+                <select id="feature_menu" name="feature_name" form="select_feature">
+                    {% for feature in feature_names %}
+                        {% if feature == current_feature_name %}
+                            <option selected value="{{ feature }}">{{ feature }}</option>
+                        {% else %}
+                            <option value="{{ feature }}">{{ feature }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+                <br><br>
+                <input type="submit" align="right" width="48" height="48">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="container">
+{#    {{ div|safe }}#}
+{#    <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.css" type="text/css" />#}
+{#    <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-1.0.2.min.js"></script>#}
+{#    {{ script|safe }}#}
+    {% if current_feature_name == 'bid_counts' %}
+        <img src="static/imgs/bid_count.png" width="600px" height="400px">
+
+    {% elif current_feature_name == 'bid_counts_by_auction' %}
+        <img src="static/imgs/bid_count_auction.png" width="600px" height="400px">
+
+    {% elif current_feature_name == 'merchandise_count_by_auction' %}
+        <img src="static/imgs/merc_count_auction.png" width="600px" height="400px">
+
+    {% elif current_feature_name == 'ip_counts_by_auction' %}
+        <img src="static/imgs/ip_count_auction.png" width="600px" height="400px">
+
+    {% else %}
+        <p></p>
+
+    {% endif %}
+</div>
+{#<a href="{{url_for('index')}}" class="btn btn-small purple white-text waves-effect waves-dark">Back</a>#}
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+{% endblock %}
+
+
