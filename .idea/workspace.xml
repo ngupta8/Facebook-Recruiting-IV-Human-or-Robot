@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bae89f8d-e266-45c2-846f-76da88f5a84f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DataSet/feature_of_all_train_df_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataSet/train_data_with_features.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/.idea/Iris-Species-Predictor-ML-Flask-App-With-Materialize.css.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/data/feature_of_all_train_df_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/data/knn.joblib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/static/imgs/bid_count.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/static/imgs/bid_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/static/imgs/download.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/static/imgs/images.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/static/imgs/ip_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/static/imgs/merc_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/templates/eda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HumanVSBotApp/templates/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/.ipynb_checkpoints/Models-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/Data Analyze.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/Data Balancing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/Feature Exploration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/Feature Extraction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/Models.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/after feature pruning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/heatmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/merc_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Jupyter Notebooks/merc_count_auction_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/after feature pruning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/after sampling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/bid_count.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/bid_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/bid_count_by_bidder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/count.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/heatmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/ip_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/merc_count_auction.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pictures/merc_count_auction_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Presentaion/OnlineBidding_HumanVSBot.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1775772019">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="csv" value="1" />
+          <entry key="html" value="6" />
+          <entry key="ipynb" value="8" />
+          <entry key="md" value="1" />
+          <entry key="png" value="6" />
+          <entry key="py" value="4" />
+          <entry key="rnc" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="6" />
+          <entry key="IPNB" value="8" />
+          <entry key="Image" value="6" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="4" />
+          <entry key="RNG Compact" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="24" />
+          <entry key="md" value="16" />
+          <entry key="py" value="457" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="24" />
+          <entry key="Markdown" value="16" />
+          <entry key="Python" value="457" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Data Balancing.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Data Analyze.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Feature Exploration.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Feature Extraction.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Models.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HumanVSBotApp/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1181">
+              <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HumanVSBotApp/templates/eda.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-412">
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HumanVSBotApp/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1780">
+              <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bids_df</find>
+      <find>bokeh</find>
+      <find>fixme</find>
+      <find>iris</find>
+      <find>create_figure</find>
+      <find>average_distinct_merc_per_auction</find>
+      <find>auction_count</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>eda</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/Data Balancing.ipynb" />
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/Data Analyze.ipynb" />
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/Feature Exploration.ipynb" />
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/Feature Extraction.ipynb" />
+        <option value="$PROJECT_DIR$/Jupyter Notebooks/Models.ipynb" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/HumanVSBotApp/templates/index.html" />
+        <option value="$PROJECT_DIR$/HumanVSBotApp/app.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="HumanVSBotApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="HumanVSBotApp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="HumanVSBotApp" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="Jupyter Notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-Bidding-Human-or-Robot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-Bidding-Human-or-Robot" type="462c0819:PsiDirectoryNode" />
+              <item name="Presentaion" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bae89f8d-e266-45c2-846f-76da88f5a84f" name="Default Changelist" comment="" />
+      <created>1550431202684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550431202684</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Project Explorer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="DB Browser" order="4" />
+      <window_info id="Job Explorer" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32846716" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Console" order="7" />
+      <window_info anchor="bottom" id="DB Execution Console" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/static/imgs/images.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/static/imgs/ip_count_auction.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/static/imgs/bid_count.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pictures/after feature pruning.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/static/imgs/bid_count_auction.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/static/imgs/merc_count_auction.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/templates/preview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet/feature_of_all_train_df_clean.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-1" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Data Balancing.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Data Analyze.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Feature Exploration.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Feature Extraction.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jupyter Notebooks/Models.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="810">
+            <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/pycharm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/templates/eda.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-412">
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1780">
+          <caret line="144" column="18" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HumanVSBotApp/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1181">
+          <caret line="92" column="54" selection-start-line="92" selection-start-column="54" selection-end-line="92" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
